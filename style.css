@@ -114,6 +114,7 @@ header h1, header h2, header h3, header p {
     margin-bottom: 20px;
 }
 
+/* Skill bar styling */
 .skill-bar-container {
     width: 100%;
     background-color: #eee;
@@ -124,8 +125,11 @@ header h1, header h2, header h3, header p {
 
 .skill-bar {
     height: 100%;
-    background-color: #007bff; /* Blue color for the skill bar */
+    color: #fff; /* Text color inside the skill bar */
+    line-height: 20px; /* Center text vertically */
+    text-align: center;
 }
+
 
 /* Adjust the gap between each section */
 .section-gap {
