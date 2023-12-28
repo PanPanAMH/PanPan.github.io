@@ -155,8 +155,6 @@ ul li {
 
 .skill-bar {
     height: 100%;
-    line-height: 20px;
-    text-align: center;
-    color: #fff;
     background-color: #007bff; /* Blue color for the skill bar */
 }
+
