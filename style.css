@@ -99,6 +99,7 @@ header h1, header h2, header h3, header p {
 }
 
 /* Responsive adjustments */
+/* Responsive adjustments for smaller screens */
 @media (max-width: 576px) {
     .header {
         height: 200px; /* Adjust the height for smaller screens */
@@ -106,8 +107,14 @@ header h1, header h2, header h3, header p {
 
     .header-content {
         font-size: 80%;
+        padding: 20px; /* Add padding for better visibility on smaller screens */
+    }
+
+    header h1 {
+        font-size: 1.5em; /* Adjust the font size for better visibility on smaller screens */
     }
 }
+
 
 /* Language Section styling */
 .language-item {
