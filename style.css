@@ -28,6 +28,7 @@ header h1, header h2, header h3, header p {
 
 .container {
     max-width: 800px;
+    margin: 0 auto; /* Center the container */
 }
 
 /* Education Section */
