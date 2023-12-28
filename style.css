@@ -78,6 +78,35 @@ header h1, header h2, header h3, header p {
     margin-bottom: 20px;
 }
 
+/* About Me Section */
+.about-me {
+    background-color: #ffe6f1; /* Light pink background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect on the About Me section */
+.about-me:hover {
+    background-color: #ffd6eb; /* Slightly darker pink on hover */
+}
+
+/* Fact styling */
+.fact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #ff5b9f; /* Pink color for the icons */
+}
+
+
 /* Responsive adjustments */
 @media (max-width: 576px) {
     .header {
