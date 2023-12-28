@@ -1,70 +1,27 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #fdfdfd;
 }
 
-header {
-    background-color: #ff69b4;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-    border-radius: 0 0 20px 20px;
-}
-
-section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2, h3 {
-    color: #333;
-}
-
-a {
-    color: #ff69b4;
-    text-decoration: none;
-}
-
-p {
-    line-height: 1.6;
-    color: #666;
+.about-me p {
+    font-size: 1.1rem;
+    color: #343a40;
 }
 
 .date {
     font-style: italic;
 }
 
-/* Cute button */
-.btn {
-    display: inline-block;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    vertical-align: middle;
-    user-select: none;
-    background-color: #ff69b4;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 15px;
-    transition: background-color 0.3s ease-in-out;
-    cursor: pointer;
+.container {
+    max-width: 800px;
 }
 
-.btn:hover {
-    background-color: #ff4499;
-}
+/* Adjustments for small screens */
+@media (max-width: 576px) {
+    header {
+        padding: 2em 0;
+    }
 
-/* Cute about me */
-.about-me p {
-    font-size: 1.1rem;
-    color: #ff69b4;
+    .about-me p {
+        font-size: 1rem;
+    }
 }
