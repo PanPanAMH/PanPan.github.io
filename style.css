@@ -95,7 +95,7 @@ header h1, header h2, header h3, header p {
 .martial-arts:hover,
 .contact:hover,
 .language:hover {
-    background-color: #f2f8fd;
+    background-color: #fceea7;
 }
 
 /* Responsive adjustments */
@@ -140,5 +140,16 @@ header h1, header h2, header h3, header p {
 
 /* Adjust the gap between each section */
 .section-gap {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
+
+ /* Define a tulip background image for the end section */
+        .tulip-section {
+            background-image: url('tulip-background.jpg'); /* Replace 'tulip-background.jpg' with your actual tulip image file */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff; /* Set text color to white for better visibility on the image */
+            padding: 50px; /* Add padding for content inside the section */
+            text-align: center;
+        }
