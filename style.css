@@ -147,7 +147,7 @@ header h1, header h2, header h3, header p {
         .tulip-section {
             background-image: url('karate.jpg'); /* Replace 'tulip-background.jpg' with your actual tulip image file */
             background-size: cover;
-            background-position: center;
+            background-position: top;
             background-repeat: no-repeat;
             color: #fff; /* Set text color to white for better visibility on the image */
             padding: 50px; /* Add padding for content inside the section */
