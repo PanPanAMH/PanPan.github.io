@@ -3,14 +3,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f8f9fa;
+    background-color: #fdfdfd;
 }
 
 header {
-    background-color: #007bff;
+    background-color: #ff69b4;
     color: #fff;
     text-align: center;
     padding: 1em 0;
+    border-radius: 0 0 20px 20px;
 }
 
 section {
@@ -18,46 +19,52 @@ section {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2, h3 {
-    color: #343a40;
+    color: #333;
 }
 
 a {
-    color: #007bff;
+    color: #ff69b4;
+    text-decoration: none;
 }
 
 p {
     line-height: 1.6;
-    color: #6c757d;
+    color: #666;
 }
 
 .date {
     font-style: italic;
 }
 
-/* Bootstrap-like button */
+/* Cute button */
 .btn {
     display: inline-block;
-    font-weight: 400;
+    font-weight: bold;
     color: #fff;
     text-align: center;
     vertical-align: middle;
     user-select: none;
-    background-color: #007bff;
-    border: 1px solid transparent;
-    padding: 0.375rem 0.75rem;
+    background-color: #ff69b4;
+    border: none;
+    padding: 10px 20px;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 0.25rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-radius: 15px;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .btn:hover {
-    color: #fff;
-    background-color: #0056b3;
-    border-color: #004386;
+    background-color: #ff4499;
+}
+
+/* Cute about me */
+.about-me p {
+    font-size: 1.1rem;
+    color: #ff69b4;
 }
