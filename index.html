@@ -3,82 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pan Eain Saw Aung Myo Han- Portfolio</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2, h3 {
-            color: #333;
-        }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        p {
-            line-height: 1.6;
-            color: #666;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+    <title>Your Medical CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
 
     <header>
         <h1>Pan Eain Saw Aung Myo Han</h1>
-        <p>First-Year Student</p>
+        <p> GED Graduate | Aspiring Medical Professional | Exemplifies mastery and discipline: A Karate black belt. </p>
     </header>
 
-    <section>
+    <section class="about-me">
         <h2>About Me</h2>
         <p>
-            Welcome to my portfolio! I am a first-year student passionate about [your interests].
-            [Add a brief introduction about yourself, your interests, and your goals.]
+            As a recent high school graduate with a keen interest in the medical field, 
+            I am passionate about making a positive impact on people's lives through healthcare. 
+            Eager to pursue further studies and contribute to the field of medicine.
         </p>
     </section>
 
-    <section>
-        <h2>Projects</h2>
-        <p>
-            <strong>Project 1:</strong> [Brief description of Project 1]<br>
-            <strong>Project 2:</strong> [Brief description of Project 2]<br>
-            [Add more projects as needed]
-        </p>
+    <section class="experience">
+        <h2>Personal Experience</h2>
+        <div class="experience-item">
+            <h3>Volunteer at Local Hospital</h3>
+            <p class="date">June 2022 - August 2022</p>
+            <p>
+                Assisted hospital staff with various tasks, gaining exposure to the healthcare environment. 
+                Developed communication and teamwork skills while providing support to patients and their families.
+            </p>
+        </div>
+
+        <!-- Add more experience items as needed -->
     </section>
 
-    <section>
+    <section class="contact">
         <h2>Contact</h2>
-        <p>
-            You can reach me via email at <a href="mailto:your.email@example.com">your.email@example.com</a>.
-            Connect with me on <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a>.
-        </p>
+        <p>Email: <span id="email">your.email@example.com</span></p>
+        <p>LinkedIn: <a href="#" id="linkedin">linkedin.com/in/your-profile</a></p>
     </section>
 
 </body>
