@@ -145,7 +145,7 @@ header h1, header h2, header h3, header p {
 
  /* Define a tulip background image for the end section */
         .tulip-section {
-            background-image: url('tulip-background.jpg'); /* Replace 'tulip-background.jpg' with your actual tulip image file */
+            background-image: url('karate.jpg'); /* Replace 'tulip-background.jpg' with your actual tulip image file */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
