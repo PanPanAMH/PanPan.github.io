@@ -31,6 +31,22 @@ header h1, header h2, header h3, header p {
     margin: 0 auto; /* Center the container */
 }
 
+/* About Me Section */
+.about-me {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect on the About Me section */
+.about-me:hover {
+    background-color: #f2f8fd;
+}
+
+
 /* Education Section */
 .education,
 /* About Me Section */
