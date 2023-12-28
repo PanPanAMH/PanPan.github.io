@@ -1,27 +1,90 @@
 body {
     font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
 }
 
-.about-me p {
-    font-size: 1.1rem;
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 0 0 20px 20px;
+}
+
+h1, h2, h3 {
     color: #343a40;
 }
 
-.date {
-    font-style: italic;
+.lead {
+    color: #6c757d;
 }
 
 .container {
     max-width: 800px;
 }
 
-/* Adjustments for small screens */
+/* Education Section */
+.education {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Me Section */
+.about-me {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Personal Experience Section */
+.experience {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+/* Martial Arts Section */
+.martial-arts {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#email {
+    color: #007bff;
+}
+
+#linkedin {
+    color: #007bff;
+}
+
+/* Responsive adjustments */
 @media (max-width: 576px) {
     header {
         padding: 2em 0;
-    }
-
-    .about-me p {
-        font-size: 1rem;
     }
 }
