@@ -111,6 +111,13 @@ header h1, header h2, header h3, header p {
     margin: 0; /* Remove default margin for the paragraph */
 }
 
+/* Style for list items */
+ul li {
+    font-family: 'Arial', sans-serif; /* Set your preferred font */
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333; /* Set the text color as needed */
+}
+
 
 
 /* Responsive adjustments */
