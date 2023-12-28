@@ -15,6 +15,7 @@ body {
 .header-image {
     width: 100%;
     height: auto;
+    object-fit: cover; /* Ensure the image covers the entire container */
 }
 
 .header-content {
@@ -23,6 +24,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color: #fff;
 }
 
 header h1, header h2, header h3, header p {
