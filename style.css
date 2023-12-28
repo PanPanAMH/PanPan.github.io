@@ -10,7 +10,6 @@ body {
     position: relative;
     overflow: hidden;
     height: 300px; /* Adjust the height based on your image */
-    background-image: url('pan.jpg');
     background-size: cover;
     background-position: center;
 }
