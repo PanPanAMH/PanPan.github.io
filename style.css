@@ -95,7 +95,7 @@ header h1, header h2, header h3, header p {
 
 /* Fact styling */
 .fact {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
@@ -104,6 +104,11 @@ header h1, header h2, header h3, header p {
     font-size: 1.5em;
     margin-right: 10px;
     color: #ff5b9f; /* Pink color for the icons */
+}
+
+/* Additional style for the text in the fact */
+.fact p {
+    margin: 0; /* Remove default margin for the paragraph */
 }
 
 
