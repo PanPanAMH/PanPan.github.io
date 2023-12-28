@@ -135,3 +135,28 @@ ul li {
         font-size: 80%;
     }
 }
+
+/* Language Section styling */
+.language {
+    margin-top: 20px;
+}
+
+.language-item {
+    margin-bottom: 20px;
+}
+
+.skill-bar-container {
+    width: 100%;
+    background-color: #eee;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-bar {
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff; /* Blue color for the skill bar */
+}
